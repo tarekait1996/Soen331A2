@@ -29,41 +29,39 @@ Ethel Narra Pangan (40061530)}
 
 \section{Map}
 
-\begin{class}{EmployeeSalaries}
+\begin{class}{Map}
 \also
-\upharpoonright (AddEmployee, DeleteEmployee, ModifySalary) \\
+\upharpoonright (AddLocationOK, DeleteLocationOK, ModifyLocationOK, FindLocationOK) \\
 \begin{state}
-employeeSalary : Employee \pfun \mathbb{R}\\
+annonations : Point \pfun \mathbb{R}\\
 \where
-\forall d : dom~employeeSalary \bullet employeeSalary(d) > 0.0
+\forall d1, d2: dom~annotations \bullet (annonations(d1) = annonations(d2)) --> d1 = d2
 \end{state} \\
 \begin{init}
-employeeSalary = \emptyset %\{ \}
+annotations = \emptyset %\{ \}
 \end{init} \\
-\begin{op}{AddEmployee}
-\Delta (employeeSalary) \\
-newEmployee? : Employee\\
-salary? : \mathbb{R}
+\begin{op}{AddLocationOK}
+\Delta (annotations) \\
+description? : Description\\
+coordinate?: Point 
 \ST
-salary? > 0.0 \\
-newEmployee? \notin dom~employeeSalary\\
-employeeSalary' = employeeSalary \cup \{ newEmployee \mapsto salary? \}
+//add precondition and post condition here
 \end{op}\\
-\begin{op}{DeleteEmployee}
-\Delta (employeeSalary) \\
-who? : Employee\\
+\begin{op}{DeleteLocationOK}
+\Delta (annotations) \\
+who? : Description\\
 \ST
-who? \in dom~employeeSalary\\
-employeeSalary' = \{ who \} \ndres employeeSalary
+who? \in dom~annotations\\
+annotations' = \{ who \} \ndres annotations
 \end{op}\\
-\begin{op}{ModifySalary}
-\Delta (employeeSalary) \\
-employee? : Employee\\
-newSalary? : \mathbb{R}
+\begin{op}{ModifyLocationsOK}
+\Delta (annotations) \\
+description? : Description\\
+coordinates? : Point
 \ST
-newSalary? > 0.0 \\
-employee? \in dom~employeeSalary\\
-employeeSalary' = employeeSalary \oplus \{ employee? \mapsto newSalary? \}
+
+
+}
 \end{op}\\
 \end{class}
 
