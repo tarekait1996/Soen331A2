@@ -51,19 +51,54 @@ newDescription? \notin dom~locations \\
 locations' = locations \cup \{ newDescription? \to newPoint? \}
 \end{op}\\
 \begin{op}{DeleteLocationOK}
-\Delta (annotations) \\
-who? : Description\\
+\Delta (locations) \\
+location? : locations\\
 \ST
-who? \in dom~annotations\\
-annotations' = \{ who \} \ndres annotations
+location? \in ~locations\\
+locations' = locations \setminus \{location\}
 \end{op}\\
-\begin{op}{ModifyLocationsOK}
-\Delta (annotations) \\
-description? : Description\\
-coordinates? : Point
+\begin{op}{ModifyLocationOK}
+\Delta (locations) \\
+desc? : Description\\
+newPoint? : Point
 \ST
-
-
+desc? \in dom~locations \\
+locations' = locations \oplus \{desc? \to newPoint?\}
+\end{op}\\ 
+\begin{op}{FindLocationOK}
+desc? : Description\\
+point! : Point
+\ST
+desc? \in ~dom locations \\
+point! = locations(desc?)
+\end{op}\\
+\begin{op}{Success}
+result!: Message
+\ST
+result! = ok
+\end{op}\\
+\begin{op}{LocationAlreadyKnown}
+\Xi (locations) \\
+description?: Description
+result!: Message
+\ST
+description? \in dom locations \\
+result! = location_already_known
+\end{op}\\
+\begin{op}{noLocationFound}
+\Xi (locations) \\
+description?: Description
+result!: Message
+\ST
+description? \notin dom locations \\
+result! = no_location_found
+\end{op}\\
+AddLocation = (AddLocationOk \land Sucess ) \lor locationAlreadyKnown \\
+deleteLocation = (DeleteLocationOK \land Sucess ) \lor NoLocationFound
+\\
+modifyLocation = (ModifyLocationOK \land Sucess ) \lor NoLocationFound
+\\
+findLocation = (FindLocationOK \and Sucess ) \or NoLocationFound
 }
 \end{op}\\
 \end{class}

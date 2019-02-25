@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  24 FEB 2019 20:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  24 FEB 2019 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,57 +813,171 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.65 
-     
+! Extra \or.
+l.101 ...ation = (FindLocationOK \and Sucess ) \or
+                                                   NoLocationFound
 ? r
 OK, entering \nonstopmode...
-! Missing { inserted.
-<inserted text> 
-                {
-l.68 \end{op}
-             \\
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
 ! Extra }, or forgotten $.
-\z@stopfield ->\egroup 
-                       
-l.68 \end{op}
-             \\
+l.102 }
+       
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+[2]
+Overfull \vbox (203.7705pt too high) has occurred while \output is active []
+
+
+[3]
+
+! LaTeX Error: \begin{class} on input line 32 ended by \end{op}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 \end{op}
+              \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.104 \end{class}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.104 \end{class}
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+! Misplaced \omit.
+\z@botline ->\also \omit 
+                         \hbox to\linewidth {\z@hrulefill \smash {\vrule hei...
+l.104 \end{class}
+                 
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \cr.
+\z@botline ...dth\zedlinethickness depth 0pt}}\cr 
+                                                  
+l.104 \end{class}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \crcr.
+\endzed ->\crcr 
+                \egroup \endz@env 
+l.104 \end{class}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\endzed ->\crcr \egroup 
+                        \endz@env 
+l.104 \end{class}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\z@makeinner ->\egroup 
+                       \global \z@curindent \z@ 
+l.104 \end{class}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{spacing} on input line 24 ended by \end{class}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \end{class}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.68 \end{op}
-             \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.68 \end{op}
-             \\
+l.104 \end{class}
+                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[2] (./object-z-specification.aux) ) 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.104 \end{class}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: \begin{document} ended by \end{spacing}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 \end{spacing}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.110 \end{spacing}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+[4] (./object-z-specification.aux) ) 
 Here is how much of TeX's memory you used:
  5589 strings out of 492649
  74622 string characters out of 6129622
- 158242 words of memory out of 5000000
+ 163242 words of memory out of 5000000
  9370 multiletter control sequences out of 15000+600000
  14822 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -877,11 +991,11 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/symbols/msam10.pfb>
-Output written on object-z-specification.pdf (2 pages, 91559 bytes).
+/amsfonts/cm/cmti8.pfb>
+Output written on object-z-specification.pdf (4 pages, 94889 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
