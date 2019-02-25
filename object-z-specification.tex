@@ -31,21 +31,24 @@ Ethel Narra Pangan (40061530)}
 
 \begin{class}{Map}
 \also
-\upharpoonright (AddLocationOK, DeleteLocationOK, ModifyLocationOK, FindLocationOK) \\
+[Description, Coordinate] \\
+Point == Coordinate \times Coordinate \\
+Message ::== ok | location\_already\_known | no\_location\_found \\
 \begin{state}
-annonations : Description \pfun Point\\
+locations : Description \pfun Point\\
 \where
-\forall d1, d2: dom~annotations \bullet (annonations(d1) = annonations(d2)) --> d1 = d2
+\forall l1, l2: ~locations \bullet (l1.description \neq l2.description)
 \end{state} \\
 \begin{init}
-annotations = \emptyset %\{ \}
+locations = \{ \}
 \end{init} \\
 \begin{op}{AddLocationOK}
-\Delta (annotations) \\
-description? : Description\\
-coordinate?: Point 
+\Delta (locations) \\
+newDescription? : Description\\
+newPoint?: Point 
 \ST
-//add precondition and post condition here
+newDescription? \notin dom~locations \\
+locations' = locations \cup \{ newDescription? \to newPoint? \}
 \end{op}\\
 \begin{op}{DeleteLocationOK}
 \Delta (annotations) \\

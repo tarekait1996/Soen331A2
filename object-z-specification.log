@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  22 FEB 2019 08:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  24 FEB 2019 20:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,21 +813,17 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (50.22786pt too wide) in alignment at lines 35--39
-[] []
- []
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.62 
+l.65 
      
 ? r
 OK, entering \nonstopmode...
 ! Missing { inserted.
 <inserted text> 
                 {
-l.65 \end{op}
+l.68 \end{op}
              \\
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -836,7 +832,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 \z@stopfield ->\egroup 
                        
-l.65 \end{op}
+l.68 \end{op}
              \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -847,7 +843,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.65 \end{op}
+l.68 \end{op}
              \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -855,7 +851,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.65 \end{op}
+l.68 \end{op}
              \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -881,12 +877,11 @@ ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on object-z-specification.pdf (2 pages, 92599 bytes).
+/amsfonts/symbols/msam10.pfb>
+Output written on object-z-specification.pdf (2 pages, 91559 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
