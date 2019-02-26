@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 FEB 2019 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 FEB 2019 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,14 +816,14 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.74 
-     
+l.72 \newpage
+             
 ? r
 OK, entering \nonstopmode...
 ! Improper \prevdepth.
 \newpage ...everypar {}\fi \par \ifdim \prevdepth 
                                                   >\z@ \vskip -\ifdim \prevd...
-l.75 \newpage
+l.72 \newpage
              
 You can refer to \spacefactor only in horizontal mode;
 you can refer to \prevdepth only in vertical mode; and
@@ -833,7 +833,7 @@ I'm forgetting what you said and using zero instead.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75 \newpage
+l.72 \newpage
              
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -844,7 +844,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75 \newpage
+l.72 \newpage
              
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -855,14 +855,14 @@ my insertion and my current dilemma will both disappear.
 ! Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.75 \newpage
+l.72 \newpage
              
 I'm guessing that you meant to end an alignment here.
 
 ! Missing { inserted.
 <inserted text> 
                 {
-l.75 \newpage
+l.72 \newpage
              
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
@@ -871,7 +871,7 @@ Try to go on, since this might almost work.
 ! Extra }, or forgotten $.
 \z@stopfield ->\egroup 
                        
-l.75 \newpage
+l.72 \newpage
              
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -882,7 +882,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.75 \newpage
+l.72 \newpage
              
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -890,7 +890,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75 \newpage
+l.72 \newpage
              
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -901,38 +901,38 @@ my insertion and my current dilemma will both disappear.
 ! Missing $$ inserted.
 <to be read again> 
                    \vfil 
-l.75 \newpage
+l.72 \newpage
              
 Displays can use special alignments (like \eqalignno)
 only if nothing but the alignment itself is between $$'s.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 AddLocation = (AddLocationOk \land
+l.94 AddLocation = (AddLocationOk \land
                                         Sucess ) \lor locationAlreadyKnown \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra \or.
-l.103 ...ation = (FindLocationOK \and Sucess ) \or
+l.99 ...cation = (FindLocationOK \and Sucess ) \or
                                                    NoLocationFound
 I'm ignoring this; it doesn't match any \if.
 
 ! Misplaced \crcr.
 \also ->\crcr 
               \@but \omit \vrule height\jot width\zedlinethickness \cr \@but 
-l.104 \end{class}
+l.100 \end{class}
                  
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -943,7 +943,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \@but ->\noalign 
                  {\nointerlineskip }
-l.104 \end{class}
+l.100 \end{class}
                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -951,7 +951,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! You can't use `\prevdepth' in math mode.
 \nointerlineskip ->\prevdepth 
                               -\@m \p@ 
-l.104 \end{class}
+l.100 \end{class}
                  
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -961,7 +961,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.104 \end{class}
+l.100 \end{class}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -970,7 +970,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.104 \end{class}
+l.100 \end{class}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -982,7 +982,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Misplaced \omit.
 \also ->\crcr \@but \omit 
                           \vrule height\jot width\zedlinethickness \cr \@but 
-l.104 \end{class}
+l.100 \end{class}
                  
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -990,7 +990,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \cr.
 <recently read> \cr 
                     
-l.104 \end{class}
+l.100 \end{class}
                  
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1001,7 +1001,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \@but ->\noalign 
                  {\nointerlineskip }
-l.104 \end{class}
+l.100 \end{class}
                  
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1009,7 +1009,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! You can't use `\prevdepth' in math mode.
 \nointerlineskip ->\prevdepth 
                               -\@m \p@ 
-l.104 \end{class}
+l.100 \end{class}
                  
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -1019,7 +1019,7 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.104 \end{class}
+l.100 \end{class}
                  
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -1028,7 +1028,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.104 \end{class}
+l.100 \end{class}
                  
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1040,7 +1040,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Misplaced \omit.
 \z@botline ->\also \omit 
                          \hbox to\linewidth {\z@hrulefill \smash {\vrule hei...
-l.104 \end{class}
+l.100 \end{class}
                  
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1048,7 +1048,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \cr.
 \z@botline ...dth\zedlinethickness depth 0pt}}\cr 
                                                   
-l.104 \end{class}
+l.100 \end{class}
                  
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1059,7 +1059,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \crcr.
 \endzed ->\crcr 
                 \egroup \endz@env 
-l.104 \end{class}
+l.100 \end{class}
                  
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1070,7 +1070,7 @@ might try typing `S' now just to see what is salvageable.
 ! Extra }, or forgotten $.
 \endzed ->\crcr \egroup 
                         \endz@env 
-l.104 \end{class}
+l.100 \end{class}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1083,7 +1083,7 @@ Missing character: There is no è in font cmex10!
 ! Extra }, or forgotten $.
 \z@makeinner ->\egroup 
                        \global \z@curindent \z@ 
-l.104 \end{class}
+l.100 \end{class}
                  
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1094,7 +1094,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.104 \end{class}
+l.100 \end{class}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1105,7 +1105,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.104 \end{class}
+l.100 \end{class}
                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1114,7 +1114,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (287.12206pt too wide) in paragraph at lines 97--105
+Overfull \hbox (287.12206pt too wide) in paragraph at lines 93--101
 \OT1/cmr/m/it/12 ^^LndLocation \OT1/cmr/m/n/12 = (\OT1/cmr/m/it/12 FindLocation
 OKSucess\OT1/cmr/m/n/12 )\OT1/cmr/m/it/12 NoLocationFound[]|[][]$$$ 
  []
@@ -1139,7 +1139,7 @@ public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on object-z-specification.pdf (4 pages, 99535 bytes).
+Output written on object-z-specification.pdf (4 pages, 99085 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream

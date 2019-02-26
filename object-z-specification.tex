@@ -35,8 +35,6 @@ Point == Coordinate \times Coordinate \\
 Message ::== ok | location\_already\_known | no\_location\_found \\
 \begin{state}
 locations : Description \pfun Point\\
-\where
-\forall l1, l2: ~locations \bullet (l1.description \neq l2.description)
 \end{state} \\
 \begin{init}
 locations = \{ \}
@@ -71,9 +69,7 @@ point! : Point
 desc? \in ~dom locations \\
 point! = locations(desc?)
 \end{op}\\
-
 \newpage
-
 \begin{op}{Success}
 result!: Message
 \ST
