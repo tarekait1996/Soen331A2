@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  24 FEB 2019 22:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 FEB 2019 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -929,20 +929,11 @@ l.103 ...ation = (FindLocationOK \and Sucess ) \or
                                                    NoLocationFound
 I'm ignoring this; it doesn't match any \if.
 
-! Extra }, or forgotten $.
-l.104 }
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Misplaced \crcr.
 \also ->\crcr 
               \@but \omit \vrule height\jot width\zedlinethickness \cr \@but 
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
 up above has ended a previous alignment prematurely,
@@ -952,16 +943,16 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \@but ->\noalign 
                  {\nointerlineskip }
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! You can't use `\prevdepth' in math mode.
 \nointerlineskip ->\prevdepth 
                               -\@m \p@ 
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
@@ -970,8 +961,8 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -979,8 +970,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -991,16 +982,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Misplaced \omit.
 \also ->\crcr \@but \omit 
                           \vrule height\jot width\zedlinethickness \cr \@but 
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Misplaced \cr.
 <recently read> \cr 
                     
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
 up above has ended a previous alignment prematurely,
@@ -1010,16 +1001,16 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \@but ->\noalign 
                  {\nointerlineskip }
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! You can't use `\prevdepth' in math mode.
 \nointerlineskip ->\prevdepth 
                               -\@m \p@ 
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
@@ -1028,8 +1019,8 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1037,8 +1028,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1049,16 +1040,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Misplaced \omit.
 \z@botline ->\also \omit 
                          \hbox to\linewidth {\z@hrulefill \smash {\vrule hei...
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I expect to see \omit only after tab marks or the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 ! Misplaced \cr.
 \z@botline ...dth\zedlinethickness depth 0pt}}\cr 
                                                   
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
 up above has ended a previous alignment prematurely,
@@ -1068,8 +1059,8 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \crcr.
 \endzed ->\crcr 
                 \egroup \endz@env 
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
 up above has ended a previous alignment prematurely,
@@ -1079,8 +1070,8 @@ might try typing `S' now just to see what is salvageable.
 ! Extra }, or forgotten $.
 \endzed ->\crcr \egroup 
                         \endz@env 
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1092,32 +1083,19 @@ Missing character: There is no è in font cmex10!
 ! Extra }, or forgotten $.
 \z@makeinner ->\egroup 
                        \global \z@curindent \z@ 
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-
-! LaTeX Error: \begin{class} on input line 31 ended by \end{op}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.105 \end{op}
-              \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1127,620 +1105,44 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.105 \end{op}
-              \\
+l.104 \end{class}
+                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-! Misplaced \crcr.
-\also ->\crcr 
-              \noalign {\vskip \jot }
-l.106 \end{class}
-                 
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-! Misplaced \noalign.
-\also ->\crcr \noalign 
-                       {\vskip \jot }
-l.106 \end{class}
-                 
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (287.12206pt too wide) in paragraph at lines 97--106
+Overfull \hbox (287.12206pt too wide) in paragraph at lines 97--105
 \OT1/cmr/m/it/12 ^^LndLocation \OT1/cmr/m/n/12 = (\OT1/cmr/m/it/12 FindLocation
 OKSucess\OT1/cmr/m/n/12 )\OT1/cmr/m/it/12 NoLocationFound[]|[][]$$$ 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--106
-
- []
-
-! Misplaced \omit.
-\z@botline ->\also \omit 
-                         \hbox to\linewidth {\z@hrulefill \smash {\vrule hei...
-l.106 \end{class}
-                 
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \cr.
-\z@botline ...dth\zedlinethickness depth 0pt}}\cr 
-                                                  
-l.106 \end{class}
-                 
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \crcr.
-\endzed ->\crcr 
-                \egroup \endz@env 
-l.106 \end{class}
-                 
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Extra }, or forgotten \endgroup.
-\endzed ->\crcr \egroup 
-                        \endz@env 
-l.106 \end{class}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\z@makeinner ->\egroup 
-                       \global \z@curindent \z@ 
-l.106 \end{class}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{spacing} on input line 23 ended by \end{class}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 \end{class}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.106 \end{class}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.106 \end{class}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.160 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.161 \newpage
-              
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.161 \newpage
-              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.161 \newpage
-              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.161 \newpage
-              
-I'm guessing that you meant to end an alignment here.
-
-! Missing { inserted.
-<inserted text> 
-                {
-l.161 \newpage
-              
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Extra }, or forgotten $.
-\z@stopfield ->\egroup 
-                       
-l.161 \newpage
-              
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.161 \newpage
-              
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.161 \newpage
-              
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $$ inserted.
-<to be read again> 
-                   \vfil 
-l.161 \newpage
-              
-Displays can use special alignments (like \eqalignno)
-only if nothing but the alignment itself is between $$'s.
-
-[3]
-Overfull \vbox (10.02032pt too high) has occurred while \output is active []
-
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.184 AddLocation = (AddLocationOk \land
-                                         Sucess ) \lor locationAlreadyKnown \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra \or.
-l.189 ...ation = (FindLocationOK \and Sucess ) \or
-                                                   NoLocationFound
-I'm ignoring this; it doesn't match any \if.
-
-! Extra }, or forgotten $.
-l.190 }
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced \crcr.
-\also ->\crcr 
-              \@but \omit \vrule height\jot width\zedlinethickness \cr \@but 
-l.191 \end{op}
-              \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\@but ->\noalign 
-                 {\nointerlineskip }
-l.191 \end{op}
-              \\
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! You can't use `\prevdepth' in math mode.
-\nointerlineskip ->\prevdepth 
-                              -\@m \p@ 
-l.191 \end{op}
-              \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.191 \end{op}
-              \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.191 \end{op}
-              \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Misplaced \omit.
-\also ->\crcr \@but \omit 
-                          \vrule height\jot width\zedlinethickness \cr \@but 
-l.191 \end{op}
-              \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \cr.
-<recently read> \cr 
-                    
-l.191 \end{op}
-              \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\@but ->\noalign 
-                 {\nointerlineskip }
-l.191 \end{op}
-              \\
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! You can't use `\prevdepth' in math mode.
-\nointerlineskip ->\prevdepth 
-                              -\@m \p@ 
-l.191 \end{op}
-              \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.191 \end{op}
-              \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   }
-l.191 \end{op}
-              \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Misplaced \omit.
-\z@botline ->\also \omit 
-                         \hbox to\linewidth {\z@hrulefill \smash {\vrule hei...
-l.191 \end{op}
-              \\
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \cr.
-\z@botline ...dth\zedlinethickness depth 0pt}}\cr 
-                                                  
-l.191 \end{op}
-              \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \crcr.
-\endzed ->\crcr 
-                \egroup \endz@env 
-l.191 \end{op}
-              \\
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Extra }, or forgotten $.
-\endzed ->\crcr \egroup 
-                        \endz@env 
-l.191 \end{op}
-              \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Missing character: There is no è in font cmex10!
-Missing character: There is no è in font cmex10!
-! Extra }, or forgotten $.
-\z@makeinner ->\egroup 
-                       \global \z@curindent \z@ 
-l.191 \end{op}
-              \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{class} on input line 110 ended by \end{op}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.191 \end{op}
-              \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.191 \end{op}
-              \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.191 \end{op}
-              \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Misplaced \crcr.
-\also ->\crcr 
-              \noalign {\vskip \jot }
-l.192 \end{class}
-                 
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \noalign.
-\also ->\crcr \noalign 
-                       {\vskip \jot }
-l.192 \end{class}
-                 
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (287.12206pt too wide) in paragraph at lines 183--192
-\OT1/cmr/m/it/12 ^^LndLocation \OT1/cmr/m/n/12 = (\OT1/cmr/m/it/12 FindLocation
-OKSucess\OT1/cmr/m/n/12 )\OT1/cmr/m/it/12 NoLocationFound[]|[][]$$$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
-
- []
-
-! Misplaced \omit.
-\z@botline ->\also \omit 
-                         \hbox to\linewidth {\z@hrulefill \smash {\vrule hei...
-l.192 \end{class}
-                 
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Misplaced \cr.
-\z@botline ...dth\zedlinethickness depth 0pt}}\cr 
-                                                  
-l.192 \end{class}
-                 
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced \crcr.
-\endzed ->\crcr 
-                \egroup \endz@env 
-l.192 \end{class}
-                 
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Extra }, or forgotten \endgroup.
-\endzed ->\crcr \egroup 
-                        \endz@env 
-l.192 \end{class}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\z@makeinner ->\egroup 
-                       \global \z@curindent \z@ 
-l.192 \end{class}
-                 
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: \begin{spacing} on input line 23 ended by \end{class}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.192 \end{class}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.192 \end{class}
-                 
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.192 \end{class}
-                 
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra \endgroup.
-\restore@spacing ...vskip \baselineskip \endgroup 
-                                                  \vskip -\parskip \vskip -\...
-l.197 \end{spacing}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-
-! LaTeX Error: \begin{document} ended by \end{spacing}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197 \end{spacing}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.197 \end{spacing}
-                   
-Things are pretty mixed up, but I think the worst is over.
-
-[5] (./object-z-specification.aux) ) 
+[3] [4] (./object-z-specification.aux) ) 
 Here is how much of TeX's memory you used:
  5589 strings out of 492649
  74622 string characters out of 6129622
- 164242 words of memory out of 5000000
+ 161242 words of memory out of 5000000
  9370 multiletter control sequences out of 15000+600000
  14822 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,21n,32p,289b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb>
-Output written on object-z-specification.pdf (5 pages, 101470 bytes).
+</usr/local/texlive/2018/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb>
+Output written on object-z-specification.pdf (4 pages, 99535 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
