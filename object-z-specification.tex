@@ -69,12 +69,12 @@ point! : Point
 desc? \in ~dom locations \\
 point! = locations(desc?)
 \end{op}\\
-\newpage
 \begin{op}{Success}
 result!: Message
 \ST
 result! = ok
 \end{op}\\
+\znewpage 
 \begin{op}{LocationAlreadyKnown}
 \Xi (locations) \\
 description?: Description
@@ -96,7 +96,7 @@ deleteLocation = (DeleteLocationOK \land Sucess ) \lor NoLocationFound
 \\
 modifyLocation = (ModifyLocationOK \land Sucess ) \lor NoLocationFound
 \\
-findLocation = (FindLocationOK \and Sucess ) \or NoLocationFound
+findLocation = (FindLocationOK \and Sucess ) \lor NoLocationFound
 \end{class}
 
 % class MAP2
