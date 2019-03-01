@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  28 FEB 2019 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 MAR 2019 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -812,35 +812,76 @@ LaTeX Font Info:    Try loading font information for U+lasy on input line 25.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-! Misplaced \crcr.
-\also ->\crcr 
-              \noalign {\vskip \jot }
-l.101 \znewpage
-               
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.96 AddLocation ~$\stackrel{\wedge}{=}
+                                       $ (AddLocationOk \land Sucess ) \lor ...
+
 ? r
 OK, entering \nonstopmode...
-! Misplaced \noalign.
-\also ->\crcr \noalign 
-                       {\vskip \jot }
-l.101 \znewpage
-               
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.96 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
+                                                   Sucess ) \lor locationAlr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-! Misplaced \noalign.
-\znewpage ->\also \noalign 
-                           {\penalty \forcepagepenalty }\also 
-l.101 \znewpage
-               
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.98 deleteLocation ~$\stackrel{\wedge}{=}
+                                          $ (DeleteLocationOK \land Sucess )...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-[3]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.98 ...ackrel{\wedge}{=}$ (DeleteLocationOK \land
+                                                   Sucess ) \lor NoLocationF...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 modifyLocation ~$\stackrel{\wedge}{=}
+                                           $ (ModifyLocationOK \land Sucess ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.100 ...ckrel{\wedge}{=}$ (ModifyLocationOK \land
+                                                   Sucess ) \lor NoLocationF...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.102 findLocation ~$\stackrel{\wedge}{=}
+                                         $ (FindLocationOK \land Sucess ) \l...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.102 ...tackrel{\wedge}{=}$ (FindLocationOK \land
+                                                   Sucess ) \lor NoLocationF...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[2] [3]
 ! Misplaced \crcr.
 \also ->\crcr 
               \noalign {\vskip \jot }
-l.101 \znewpage
+l.104 \znewpage
                
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -851,16 +892,44 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \also ->\crcr \noalign 
                        {\vskip \jot }
-l.101 \znewpage
+l.104 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-[4] (./object-z-specification.aux) ) 
+! Misplaced \noalign.
+\znewpage ->\also \noalign 
+                           {\penalty \forcepagepenalty }\also 
+l.104 \znewpage
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+[4]
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.104 \znewpage
+               
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.104 \znewpage
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+[5] (./object-z-specification.aux) ) 
 Here is how much of TeX's memory you used:
  5589 strings out of 492649
  74622 string characters out of 6129622
- 163242 words of memory out of 5000000
+ 164242 words of memory out of 5000000
  9370 multiletter control sequences out of 15000+600000
  14822 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -876,10 +945,10 @@ ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msbm10.pfb>
-Output written on object-z-specification.pdf (4 pages, 98846 bytes).
+Output written on object-z-specification.pdf (5 pages, 100478 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -63,6 +63,7 @@ desc? \in dom~locations \\
 locations' = locations \oplus \{desc? \to newPoint?\}
 \end{op}\\ 
 \begin{op}{FindLocationOK}
+\Xi (locations) \\
 desc? : Description\\
 point! : Point
 \ST
@@ -70,6 +71,7 @@ desc? \in ~dom locations \\
 point! = locations(desc?)
 \end{op}\\
 \begin{op}{Success}
+\Xi (locations) \\
 result!: Message
 \ST
 result! = ok
@@ -91,12 +93,13 @@ result!: Message
 description? \notin dom locations \\
 result! = no_location_found
 \end{op}\\
-AddLocation = (AddLocationOk \land Sucess ) \lor locationAlreadyKnown \\
-deleteLocation = (DeleteLocationOK \land Sucess ) \lor NoLocationFound
+AddLocation ~$\stackrel{\wedge}{=}$ (AddLocationOk \land Sucess ) \lor locationAlreadyKnown
 \\
-modifyLocation = (ModifyLocationOK \land Sucess ) \lor NoLocationFound
+deleteLocation ~$\stackrel{\wedge}{=}$ (DeleteLocationOK \land Sucess ) \lor NoLocationFound
 \\
-findLocation = (FindLocationOK \and Sucess ) \lor NoLocationFound
+modifyLocation ~$\stackrel{\wedge}{=}$ (ModifyLocationOK \land Sucess ) \lor NoLocationFound
+\\
+findLocation ~$\stackrel{\wedge}{=}$ (FindLocationOK \land Sucess ) \lor NoLocationFound
 \end{class}
 \znewpage
 % class MAP2
