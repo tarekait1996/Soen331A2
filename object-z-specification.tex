@@ -52,7 +52,7 @@ locations' = locations \cup \{ newDescription? \to newPoint? \}
 location? : locations\\
 \ST
 location? \in ~locations\\
-locations' = locations \setminus \{location\}
+locations' = locations \setminus \{location?\}
 \end{op}\\
 \begin{op}{ModifyLocationOK}
 \Delta (locations) \\
