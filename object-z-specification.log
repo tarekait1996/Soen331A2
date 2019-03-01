@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  25 FEB 2019 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  28 FEB 2019 19:40
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/narrapangan/Documents/w19/soen331-assignment/Soen331A2/object-z-specification.tex
-(/Users/narrapangan/Documents/w19/soen331-assignment/Soen331A2/object-z-specification.tex
+**object-z-specification.tex
+(./object-z-specification.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -23,17 +22,22 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -48,9 +52,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/alltt.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \col@sep=\dimen111
 \ar@mcellbox=\box26
@@ -59,22 +65,28 @@ Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 \extratabsurround=\skip43
 \backup@length=\skip44
 \ar@cellbox=\box27
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@col@width=\dimen115
 \TX@old@table=\dimen116
@@ -83,14 +95,17 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@delta=\dimen119
 \TX@cols=\count91
 \TX@ftn=\toks17
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks18
 \verbatim@line=\toks19
 \verbatim@in@stream=\read1
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count92
 \lst@gtempboxa=\box28
 \lst@token=\toks20
@@ -103,39 +118,47 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 \lst@newlines=\count96
 \lst@lineno=\count97
 \lst@maxwidth=\dimen123
- (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count98
 \lst@skipnumbers=\count99
 \lst@framebox=\box29
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks21
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
 \ex@=\dimen124
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen125
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count100
@@ -175,7 +198,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks26
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks27
 \thm@bodyfont=\toks28
@@ -186,17 +210,20 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@postskip=\skip49
 \thm@headsep=\skip50
 \dth@everypar=\toks32
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/qtree/qtree.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/qtree/qtree.sty
 Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
 Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pict2e/pict2e.sty
 Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
- (/usr/local/texlive/2018/texmf-dist/tex/latex/pict2e/pict2e.cfg
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pict2e/pict2e.cfg
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 119.
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks33
@@ -308,7 +335,8 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \qroofx=\count115
 \qroofy=\count116
 \@qrscratchbox=\box54
-) (/Users/narrapangan/Documents/w19/soen331-assignment/Soen331A2/oz.sty
+)
+(./oz.sty
 Package: oz 1995/10/03 2.41 Object Z macros
 \c@mv@oz=\count117
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `oz'
@@ -345,31 +373,43 @@ LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 352
+.
 LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 352.
+
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 35
+2.
 LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \vDash on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 35
+2.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 352
+.
 LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 352
+.
 LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 352
+.
 LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 352.
+
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+352.
 LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \circeq on input line 352.
@@ -401,15 +441,21 @@ LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \sqsubset on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \sqsupset on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 352
+.
 LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \between on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 35
+2.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 3
+52.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 35
+2.
 LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 352.
@@ -436,6 +482,7 @@ LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 352.
@@ -502,8 +549,10 @@ LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 352.
-LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 352.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 352
+.
 LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 352.
@@ -511,7 +560,9 @@ LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \mho on input line 352.
@@ -534,6 +585,7 @@ LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 352.
+
 LaTeX Font Info:    Redeclaring math symbol \digamma on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 352.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 352.
@@ -616,16 +668,19 @@ LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 352.
 \z@temp=\dimen195
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/titlepic/titlepic.sty
 Package: titlepic 2017/03/14 1.2 Package to display a picture on the title page
+
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
- Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix <2008/02/07> (tvz)
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
 \FV@CodeLineNo=\count125
 \FV@InFile=\read2
 \FV@TabBox=\box60
 \c@FancyVerbLine=\count126
 \FV@StepNumber=\count127
 \FV@OutFile=\write3
-) (/Users/narrapangan/Documents/w19/soen331-assignment/Soen331A2/object-z-specification.aux)
+) (./object-z-specification.aux)
 \openout1 = `object-z-specification.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -690,21 +745,29 @@ LaTeX Font Info:    ... okay on input line 22.
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-))) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -712,48 +775,111 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-))) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 \c@lstlisting=\count134
 LaTeX Font Info:    Try loading font information for U+msa on input line 25.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 25.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 25.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (/Users/narrapangan/Documents/w19/soen331-assignment/Soen331A2/object-z-specification.aux) ) 
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.101 \znewpage
+               
+? r
+OK, entering \nonstopmode...
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.101 \znewpage
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \noalign.
+\znewpage ->\also \noalign 
+                           {\penalty \forcepagepenalty }\also 
+l.101 \znewpage
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+[3]
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.101 \znewpage
+               
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.101 \znewpage
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+[4] (./object-z-specification.aux) ) 
 Here is how much of TeX's memory you used:
- 5590 strings out of 492649
- 75296 string characters out of 6129622
+ 5589 strings out of 492649
+ 74622 string characters out of 6129622
  163242 words of memory out of 5000000
  9370 multiletter control sequences out of 15000+600000
  14822 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,21n,32p,351b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /Users/narrapangan/Documents/w19/soen331-assignment/Soen331A2/object-z-specification.pdf (3 pages, 98354 bytes).
+ 41i,21n,32p,289b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on object-z-specification.pdf (4 pages, 98846 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
