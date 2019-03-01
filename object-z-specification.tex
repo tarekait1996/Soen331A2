@@ -82,8 +82,8 @@ result! = ok
 description?: Description \\
 result!: Message
 \ST
-description? \in dom locations \\
-result! = location_already_known
+description? \in dom~locations \\
+result! = location\_already\_known
 \end{op}\\
 \begin{op}{noLocationFound}
 \Xi (locations) \\
@@ -91,7 +91,7 @@ description?: Description
 result!: Message
 \ST
 description? \notin dom locations \\
-result! = no_location_found
+result! = no\_location\_found
 \end{op}\\
 AddLocation ~$\stackrel{\wedge}{=}$ (AddLocationOk \land Sucess ) \lor locationAlreadyKnown
 \\
