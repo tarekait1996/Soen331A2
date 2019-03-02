@@ -85,7 +85,7 @@ result!: Message
 description? \in dom~locations \\
 result! = location\_already\_known
 \end{op}\\
-\begin{op}{noLocationFound}
+\begin{op}{NoLocationFound}
 \Xi (locations) \\
 description?: Description \\
 result!: Message
@@ -93,13 +93,13 @@ result!: Message
 description? \notin dom~locations \\
 result! = no\_location\_found
 \end{op}\\
-AddLocation ~$\stackrel{\wedge}{=}$ (AddLocationOk \land Sucess ) \lor locationAlreadyKnown
+AddLocation ~$\stackrel{\wedge}{=}$ (AddLocationOk \land Sucess ) \lor LocationAlreadyKnown
 \\
-deleteLocation ~$\stackrel{\wedge}{=}$ (DeleteLocationOK \land Sucess ) \lor NoLocationFound
+DeleteLocation ~$\stackrel{\wedge}{=}$ (DeleteLocationOK \land Sucess ) \lor NoLocationFound
 \\
-modifyLocation ~$\stackrel{\wedge}{=}$ (ModifyLocationOK \land Sucess ) \lor NoLocationFound
+ModifyLocation ~$\stackrel{\wedge}{=}$ (ModifyLocationOK \land Sucess ) \lor NoLocationFound
 \\
-findLocation ~$\stackrel{\wedge}{=}$ (FindLocationOK \land Sucess ) \lor NoLocationFound
+FindLocation ~$\stackrel{\wedge}{=}$ (FindLocationOK \land Sucess ) \lor NoLocationFound
 \end{class}
 \znewpage
 % class MAP2
@@ -141,7 +141,7 @@ count' = count
 \ST
 count' = count
 \end{op}\\ 
-\begin{op}{noLocationFound}
+\begin{op}{NoLocationFound}
 \ST
 count' = count
 \end{op}\\

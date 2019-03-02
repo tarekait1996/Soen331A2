@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  1 MAR 2019 12:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAR 2019 17:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -819,20 +819,20 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 l.96 AddLocation ~$\stackrel{\wedge}{=}
                                        $ (AddLocationOk \land Sucess ) \lor ...
 
-? r
+? R
 OK, entering \nonstopmode...
 ! Missing $ inserted.
 <inserted text> 
                 $
 l.96 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
-                                                   Sucess ) \lor locationAlr...
+                                                   Sucess ) \lor LocationAlr...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 deleteLocation ~$\stackrel{\wedge}{=}
+l.98 DeleteLocation ~$\stackrel{\wedge}{=}
                                           $ (DeleteLocationOK \land Sucess )...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -848,7 +848,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 modifyLocation ~$\stackrel{\wedge}{=}
+l.100 ModifyLocation ~$\stackrel{\wedge}{=}
                                            $ (ModifyLocationOK \land Sucess ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -864,7 +864,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102 findLocation ~$\stackrel{\wedge}{=}
+l.102 FindLocation ~$\stackrel{\wedge}{=}
                                          $ (FindLocationOK \land Sucess ) \l...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -944,7 +944,7 @@ blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msbm10.pfb>
-Output written on object-z-specification.pdf (5 pages, 92814 bytes).
+Output written on object-z-specification.pdf (5 pages, 92501 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
