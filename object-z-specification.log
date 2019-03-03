@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAR 2019 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAR 2019 22:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -816,15 +816,789 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.96 AddLocation ~$\stackrel{\wedge}{=}
-                                       $ (AddLocationOk \land Sucess ) \lor ...
-
+l.31 Point == Coordinate \times
+                                Coordinate \\
 ? r
 OK, entering \nonstopmode...
+! Missing } inserted.
+<inserted text> 
+                }
+l.34 \begin{class}{Map}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.34 \begin{class}{Map}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! You can't use `\halign' in math mode.
+<recently read> \halign 
+                        
+l.34 \begin{class}{Map}
+                       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \bgroup 
+l.34 \begin{class}{Map}
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \bgroup 
+l.34 \begin{class}{Map}
+                       
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! You can't use `macro parameter character #' in math mode.
+\z@format ...\z@startline \ignorespaces $\@lign ##
+                                                  $\z@stopline \hfil \tabski...
+l.34 \begin{class}{Map}
+                       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.34 \begin{class}{Map}
+                       
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+\z@format ... plus1fil&\hbox to 0pt{\hss \@lign ##
+                                                  }\tabskip =0pt\cr 
+l.34 \begin{class}{Map}
+                       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Misplaced \cr.
+<recently read> \cr 
+                    
+l.34 \begin{class}{Map}
+                       
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \omit.
+\z@topline #1->\omit 
+                     \@ifnextchar [{\z@@topline {#1}}{\z@@topline {#1}[]}
+l.34 \begin{class}{Map}
+                       
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (39.80695pt too wide) detected at line 35
+||[]$ \OT1/cmr/m/it/12 Map $ [][]
+ []
+
+! Misplaced \cr.
+\z@@topline ...edcornerheight }\hbox {\sf #2}}\cr 
+                                                  
+l.35 \also
+          
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.35 \also
+          
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.35 \also
+          
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.96 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
+l.35 \also
+          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.35 \also
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.35 \also
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.35 \also
+          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.36 \uparrow
+              (AddLocation, DeleteLocation, ModifyLocation, FindLocation)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \begin{state}
+                  
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.37 \begin{state}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.37 \begin{state}
+                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten $.
+\z@makeinner ->\egroup 
+                       \global \z@curindent \z@ 
+l.39 \end{state}
+                 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\endstate ->\endschema \egroup 
+                               \egroup \egroup 
+l.39 \end{state}
+                 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\endstate ->\endschema \egroup \egroup 
+                                       \egroup 
+l.39 \end{state}
+                 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\endstate ->\endschema \egroup \egroup \egroup 
+                                               
+l.39 \end{state}
+                 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.39 \end{state}
+                 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.39 \end{state}
+                 \\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.39 \end{state}
+                 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.39 \end{state}
+                 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \begin{init}
+                 
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.40 \begin{init}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.40 \begin{init}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! You can't use `\halign' in math mode.
+<recently read> \halign 
+                        
+l.40 \begin{init}
+                 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \bgroup 
+l.40 \begin{init}
+                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \bgroup 
+l.40 \begin{init}
+                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! You can't use `macro parameter character #' in math mode.
+\z@format ...\z@startline \ignorespaces $\@lign ##
+                                                  $\z@stopline \hfil \tabski...
+l.40 \begin{init}
+                 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.40 \begin{init}
+                 
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+\z@format ... plus1fil&\hbox to 0pt{\hss \@lign ##
+                                                  }\tabskip =0pt\cr 
+l.40 \begin{init}
+                 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Misplaced \cr.
+<recently read> \cr 
+                    
+l.40 \begin{init}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \omit.
+\z@topline #1->\omit 
+                     \@ifnextchar [{\z@@topline {#1}}{\z@@topline {#1}[]}
+l.40 \begin{init}
+                 
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (40.74696pt too wide) detected at line 41
+||[]$ \OT1/cmr/m/it/12 I [] $ [][]
+ []
+
+! Misplaced \cr.
+\z@@topline ...edcornerheight }\hbox {\sf #2}}\cr 
+                                                  
+l.41 l
+      ocations = \{ \}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.42 \end{init}
+                \\
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.42 \end{init}
+                \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.42 \end{init}
+                \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.42 \end{init}
+                \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.42 \end{init}
+                \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (338.49101pt too wide) in paragraph at lines 36--42
+[]$\OMS/cmsy/m/n/12 " \OT1/cmr/m/n/12 (\OT1/cmr/m/it/12 AddLocation\OML/cmm/m/i
+t/12 ; \OT1/cmr/m/it/12 DeleteLocation\OML/cmm/m/it/12 ; \OT1/cmr/m/it/12 Modif
+yLocation\OML/cmm/m/it/12 ; \OT1/cmr/m/it/12 FindLocation\OT1/cmr/m/n/12 )[][] 
+
+ []
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.42 \end{init}
+                \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \omit.
+\z@botline ->\also \omit 
+                         \hbox to\linewidth {\z@hrulefill \smash {\vrule hei...
+l.42 \end{init}
+                \\
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \cr.
+\z@botline ...dth\zedlinethickness depth 0pt}}\cr 
+                                                  
+l.42 \end{init}
+                \\
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \crcr.
+\endzed ->\crcr 
+                \egroup \endz@env 
+l.42 \end{init}
+                \\
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\endzed ->\crcr \egroup 
+                        \endz@env 
+l.42 \end{init}
+                \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\z@makeinner ->\egroup 
+                       \global \z@curindent \z@ 
+l.42 \end{init}
+                \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{spacing} on input line 23 ended by \end{init}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \end{init}
+                \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.42 \end{init}
+                \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.42 \end{init}
+                \\
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \begin{op}
+               {AddLocationOK}
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \begin{op}
+               {DeleteLocationOK}
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \begin{op}
+               {ModifyLocationOK}
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[2]
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \begin{op}
+               {FindLocationOK}
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 \begin{op}
+               {Success}
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.80 \zbreak
+            
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.80 \zbreak
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+! Misplaced \noalign.
+\zbreak ->\also \noalign 
+                         {\penalty \interdisplaylinepenalty \vskip -\jot }\a...
+l.80 \zbreak
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.80 \zbreak
+            
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.80 \zbreak
+            
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 \begin{op}
+               {LocationAlreadyKnown}
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: This Z environment is only allowed within a class.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 \begin{op}
+               {NoLocationFound}
+Perhaps you forgot to include a \begin{class} somewhere
+or you are trying to print a file that needs updating.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.97 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
                                                    Sucess ) \lor LocationAlr...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -832,7 +1606,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 DeleteLocation ~$\stackrel{\wedge}{=}
+l.99 DeleteLocation ~$\stackrel{\wedge}{=}
                                           $ (DeleteLocationOK \land Sucess )...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -840,7 +1614,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 ...ackrel{\wedge}{=}$ (DeleteLocationOK \land
+l.99 ...ackrel{\wedge}{=}$ (DeleteLocationOK \land
                                                    Sucess ) \lor NoLocationF...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -848,7 +1622,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 ModifyLocation ~$\stackrel{\wedge}{=}
+l.101 ModifyLocation ~$\stackrel{\wedge}{=}
                                            $ (ModifyLocationOK \land Sucess ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -856,7 +1630,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 ...ckrel{\wedge}{=}$ (ModifyLocationOK \land
+l.101 ...ckrel{\wedge}{=}$ (ModifyLocationOK \land
                                                    Sucess ) \lor NoLocationF...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -864,7 +1638,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102 FindLocation ~$\stackrel{\wedge}{=}
+l.103 FindLocation ~$\stackrel{\wedge}{=}
                                          $ (FindLocationOK \land Sucess ) \l...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -872,16 +1646,149 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102 ...tackrel{\wedge}{=}$ (FindLocationOK \land
+l.103 ...tackrel{\wedge}{=}$ (FindLocationOK \land
                                                    Sucess ) \lor NoLocationF...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[2] [3]
 ! Misplaced \crcr.
 \also ->\crcr 
               \noalign {\vskip \jot }
-l.104 \znewpage
+l.104 \end{class}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \noalign.
+\also ->\crcr \noalign 
+                       {\vskip \jot }
+l.104 \end{class}
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.104 \end{class}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.104 \end{class}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[3]
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.104 \end{class}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Misplaced \omit.
+\z@botline ->\also \omit 
+                         \hbox to\linewidth {\z@hrulefill \smash {\vrule hei...
+l.104 \end{class}
+                 
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \cr.
+\z@botline ...dth\zedlinethickness depth 0pt}}\cr 
+                                                  
+l.104 \end{class}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced \crcr.
+\endzed ->\crcr 
+                \egroup \endz@env 
+l.104 \end{class}
+                 
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Extra }, or forgotten \endgroup.
+\endzed ->\crcr \egroup 
+                        \endz@env 
+l.104 \end{class}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\z@makeinner ->\egroup 
+                       \global \z@curindent \z@ 
+l.104 \end{class}
+                 
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{spacing} on input line 23 ended by \end{class}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104 \end{class}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.104 \end{class}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.104 \end{class}
+                 
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Misplaced \crcr.
+\also ->\crcr 
+              \noalign {\vskip \jot }
+l.105 \znewpage
                
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -892,7 +1799,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \also ->\crcr \noalign 
                        {\vskip \jot }
-l.104 \znewpage
+l.105 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -900,7 +1807,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \noalign.
 \znewpage ->\also \noalign 
                            {\penalty \forcepagepenalty }\also 
-l.104 \znewpage
+l.105 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -909,7 +1816,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \crcr.
 \also ->\crcr 
               \noalign {\vskip \jot }
-l.104 \znewpage
+l.105 \znewpage
                
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -920,20 +1827,47 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \also ->\crcr \noalign 
                        {\vskip \jot }
-l.104 \znewpage
+l.105 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
+
+! Extra \endgroup.
+\restore@spacing ...vskip \baselineskip \endgroup 
+                                                  \vskip -\parskip \vskip -\...
+l.154 \end{spacing}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \begin{document} ended by \end{spacing}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 \end{spacing}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.154 \end{spacing}
+                   
+Things are pretty mixed up, but I think the worst is over.
 
 [5] (./object-z-specification.aux) ) 
 Here is how much of TeX's memory you used:
  5589 strings out of 492649
  74622 string characters out of 6129622
- 164242 words of memory out of 5000000
+ 159242 words of memory out of 5000000
  9370 multiletter control sequences out of 15000+600000
  14822 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,21n,32p,289b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,16n,32p,289b,271s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
@@ -944,7 +1878,7 @@ blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msbm10.pfb>
-Output written on object-z-specification.pdf (5 pages, 92495 bytes).
+Output written on object-z-specification.pdf (5 pages, 93083 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream

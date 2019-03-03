@@ -27,12 +27,13 @@ Ethel Narra Pangan (40061530)}
 \newpage
 
 \section{Map}
-
-\begin{class}{Map}
-\also
 [Description, Coordinate] \\
 Point == Coordinate \times Coordinate \\
 Message ::= ok | location\_already\_known | no\_location\_found \\
+\\
+\begin{class}{Map}
+\also
+\uparrow (AddLocation, DeleteLocation, ModifyLocation, FindLocation)
 \begin{state}
 locations : Description \pfun Point\\
 \end{state} \\
