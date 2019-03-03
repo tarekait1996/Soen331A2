@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAR 2019 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAR 2019 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -813,33 +813,17 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-! Misplaced \crcr.
-\also ->\crcr 
-              \noalign {\vskip \jot }
-l.30 \also
-          
-? r
-OK, entering \nonstopmode...
-! Misplaced \noalign.
-\also ->\crcr \noalign 
-                       {\vskip \jot }
-l.30 \also
-          
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.32 Point == Coordinate \times
+l.31 Point == Coordinate \times
                                 Coordinate \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? r
+OK, entering \nonstopmode...
 ! Misplaced \crcr.
 \also ->\crcr 
               \noalign {\vskip \jot }
-l.34 \also
+l.33 \also
           
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -850,7 +834,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \also ->\crcr \noalign 
                        {\vskip \jot }
-l.34 \also
+l.33 \also
           
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -858,7 +842,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.34 \also
+l.33 \also
           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -866,7 +850,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.34 \also
+l.33 \also
           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -877,7 +861,7 @@ my insertion and my current dilemma will both disappear.
 ! Extra }, or forgotten \endgroup.
 <recently read> }
                  
-l.34 \also
+l.33 \also
           
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -888,7 +872,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.81 
+l.79 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -896,7 +880,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \z@stopfield ->\egroup 
                        
-l.89 \end{op}\\
+l.87 \end{op}\\
                
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -907,7 +891,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.89 \end{op}\\
+l.87 \end{op}\\
                
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -915,7 +899,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.89 \end{op}\\
+l.87 \end{op}\\
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -926,7 +910,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 AddLocation ~$\stackrel{\wedge}{=}
+l.96 AddLocation ~$\stackrel{\wedge}{=}
                                        $ (AddLocationOk \land Sucess ) \lor ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -934,7 +918,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
+l.96 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
                                                    Sucess ) \lor LocationAlr...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -942,15 +926,15 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 DeleteLocation ~$\stackrel{\wedge}{=}
-                                           $ (DeleteLocationOK \land Sucess ...
+l.98 DeleteLocation ~$\stackrel{\wedge}{=}
+                                          $ (DeleteLocationOK \land Sucess )...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 ...ckrel{\wedge}{=}$ (DeleteLocationOK \land
+l.98 ...ackrel{\wedge}{=}$ (DeleteLocationOK \land
                                                    Sucess ) \lor NoLocationF...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -958,7 +942,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102 ModifyLocation ~$\stackrel{\wedge}{=}
+l.100 ModifyLocation ~$\stackrel{\wedge}{=}
                                            $ (ModifyLocationOK \land Sucess ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -966,7 +950,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102 ...ckrel{\wedge}{=}$ (ModifyLocationOK \land
+l.100 ...ckrel{\wedge}{=}$ (ModifyLocationOK \land
                                                    Sucess ) \lor NoLocationF...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -974,7 +958,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.104 FindLocation ~$\stackrel{\wedge}{=}
+l.102 FindLocation ~$\stackrel{\wedge}{=}
                                          $ (FindLocationOK \land Sucess ) \l...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -982,7 +966,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.104 ...tackrel{\wedge}{=}$ (FindLocationOK \land
+l.102 ...tackrel{\wedge}{=}$ (FindLocationOK \land
                                                    Sucess ) \lor NoLocationF...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -991,7 +975,7 @@ you left one out. Proceed, with fingers crossed.
 ! Misplaced \crcr.
 \also ->\crcr 
               \noalign {\vskip \jot }
-l.106 \znewpage
+l.104 \znewpage
                
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1002,7 +986,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \also ->\crcr \noalign 
                        {\vskip \jot }
-l.106 \znewpage
+l.104 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1010,7 +994,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \noalign.
 \znewpage ->\also \noalign 
                            {\penalty \forcepagepenalty }\also 
-l.106 \znewpage
+l.104 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1019,7 +1003,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \crcr.
 \also ->\crcr 
               \noalign {\vskip \jot }
-l.106 \znewpage
+l.104 \znewpage
                
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1030,7 +1014,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \also ->\crcr \noalign 
                        {\vskip \jot }
-l.106 \znewpage
+l.104 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -1054,7 +1038,7 @@ blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msbm10.pfb>
-Output written on object-z-specification.pdf (4 pages, 92315 bytes).
+Output written on object-z-specification.pdf (4 pages, 92428 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

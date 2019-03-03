@@ -27,13 +27,11 @@ Ethel Narra Pangan (40061530)}
 \newpage
 
 \section{Map}
-\also
 [Description, Coordinate] \\
 Point == Coordinate \times Coordinate \\
-Message ::= ok | location\_already\_known | no\_location\_found \\
+Message ::= ok | location\_already\_known | no\_location\_found \\ 
 \also
 \begin{class}{Map}
-\also
 \begin{state}
 locations : Description \pfun Point\\
 \end{state} \\
@@ -50,10 +48,10 @@ locations' = locations \cup \{ newDescription? \to newPoint? \}
 \end{op}\\
 \begin{op}{DeleteLocationOK}
 \Delta (locations) \\
-location? : locations\\
+description?: Description\\
 \ST
-location? \in ~locations\\
-locations' = locations \setminus \{location?\}
+description? \in dom~locations\\
+locations' = \{description?\}~ \ooalign{$\triangleleft$\cr\hidewidth\scalebox{.65}[1]{$-$}\hidewidth\cr} ~locations
 \end{op}\\
 \begin{op}{ModifyLocationOK}
 \Delta (locations) \\
