@@ -109,40 +109,40 @@ FindLocation ~$\stackrel{\wedge}{=}$ (FindLocationOK \land Success ) \lor NoLoca
 \also
 Map \\
 \begin{state}
-LocationsCount : \mathbb{N}
+locationsCount : \mathbb{N}
 \end{state} \\
 \begin{init}
-LocationsCount = 0
+locationsCount = 0
 \end{init} \\
 \begin{op}{AddLocationOK}
-\Delta (LocationsCount) \\
+\Delta (locationsCount) \\
 \ST
-LocationsCount' = LocationsCount + 1
+locationsCount' = locationsCount + 1
 \end{op}\\
 \begin{op}{DeleteLocationOK}
-\Delta (LocationsCount) \\
+\Delta (locationsCount) \\
 \ST
-LocationsCount' = LocationsCount -1
+locationsCount' = locationsCount -1
 \end{op}\\
 \begin{op}{ModifyLocationOK}
 \ST
-LocationsCount' = LocationsCount
+locationsCount' = locationsCount
 \end{op}\\ 
 \begin{op}{FindLocationOK}
 \ST
-LocationsCount' = LocationsCount
+locationsCount' = locationsCount
 \end{op}\\
 \begin{op}{Success}
 \ST
-LocationsCount' = LocationsCount
+locationsCount' = locationsCount
 \end{op}\\
 \begin{op}{LocationAlreadyKnown}
 \ST
-LocationsCount' = LocationsCount
+locationsCount' = locationsCount
 \end{op}\\ 
 \begin{op}{NoLocationFound}
 \ST
-LocationsCount' = LocationsCount
+locationsCount' = locationsCount
 \end{op}\\
 \end{class}
 
