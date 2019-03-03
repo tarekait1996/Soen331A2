@@ -27,10 +27,11 @@ Ethel Narra Pangan (40061530)}
 \newpage
 
 \section{Map}
+\begin{zed}
 [Description, Coordinate] \\
 Point == Coordinate \times Coordinate \\
 Message ::= ok | location\_already\_known | no\_location\_found \\ 
-\also
+\end{zed}
 \begin{class}{Map}
 \begin{state}
 locations : Description \pfun Point\\
@@ -76,7 +77,6 @@ result!: Message
 \ST
 result! = ok
 \end{op}\\
-
 \begin{op}{LocationAlreadyKnown}
 \Xi (locations) \\
 description?: Description \\
