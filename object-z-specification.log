@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAR 2019 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 MAR 2019 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,7 +817,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 <inserted text> 
                 $
 l.96 AddLocation ~$\stackrel{\wedge}{=}
-                                       $ (AddLocationOk \land Sucess ) \lor ...
+                                       $ (AddLocationOk \land Success ) \lor...
 
 ? r
 OK, entering \nonstopmode...
@@ -825,7 +825,7 @@ OK, entering \nonstopmode...
 <inserted text> 
                 $
 l.96 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
-                                                   Sucess ) \lor LocationAlr...
+                                                   Success ) \lor LocationAl...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -833,7 +833,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 $
 l.98 DeleteLocation ~$\stackrel{\wedge}{=}
-                                          $ (DeleteLocationOK \land Sucess )...
+                                          $ (DeleteLocationOK \land Success ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -841,7 +841,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 $
 l.98 ...ackrel{\wedge}{=}$ (DeleteLocationOK \land
-                                                   Sucess ) \lor NoLocationF...
+                                                   Success ) \lor NoLocation...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -849,7 +849,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 $
 l.100 ModifyLocation ~$\stackrel{\wedge}{=}
-                                           $ (ModifyLocationOK \land Sucess ...
+                                           $ (ModifyLocationOK \land Success...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -857,7 +857,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 $
 l.100 ...ckrel{\wedge}{=}$ (ModifyLocationOK \land
-                                                   Sucess ) \lor NoLocationF...
+                                                   Success ) \lor NoLocation...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -865,7 +865,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 $
 l.102 FindLocation ~$\stackrel{\wedge}{=}
-                                         $ (FindLocationOK \land Sucess ) \l...
+                                         $ (FindLocationOK \land Success ) \...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -873,7 +873,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 $
 l.102 ...tackrel{\wedge}{=}$ (FindLocationOK \land
-                                                   Sucess ) \lor NoLocationF...
+                                                   Success ) \lor NoLocation...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -933,7 +933,7 @@ Here is how much of TeX's memory you used:
  9370 multiletter control sequences out of 15000+600000
  14822 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,21n,32p,289b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,21n,32p,289b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
@@ -944,7 +944,7 @@ blic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public
 /amsfonts/symbols/msbm10.pfb>
-Output written on object-z-specification.pdf (4 pages, 92401 bytes).
+Output written on object-z-specification.pdf (4 pages, 92432 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

@@ -93,57 +93,56 @@ result!: Message
 description? \notin dom~locations \\
 result! = no\_location\_found
 \end{op}\\
-AddLocation ~$\stackrel{\wedge}{=}$ (AddLocationOk \land Sucess ) \lor LocationAlreadyKnown
+AddLocation ~$\stackrel{\wedge}{=}$ (AddLocationOk \land Success ) \lor LocationAlreadyKnown
 \\
-DeleteLocation ~$\stackrel{\wedge}{=}$ (DeleteLocationOK \land Sucess ) \lor NoLocationFound
+DeleteLocation ~$\stackrel{\wedge}{=}$ (DeleteLocationOK \land Success ) \lor NoLocationFound
 \\
-ModifyLocation ~$\stackrel{\wedge}{=}$ (ModifyLocationOK \land Sucess ) \lor NoLocationFound
+ModifyLocation ~$\stackrel{\wedge}{=}$ (ModifyLocationOK \land Success ) \lor NoLocationFound
 \\
-FindLocation ~$\stackrel{\wedge}{=}$ (FindLocationOK \land Sucess ) \lor NoLocationFound
+FindLocation ~$\stackrel{\wedge}{=}$ (FindLocationOK \land Success ) \lor NoLocationFound
 \end{class}
 \znewpage
 % class MAP2
 
+\section{Map2}
 \begin{class}{Map2}
 \also
 Map \\
 \begin{state}
-count : \mathbb{N}
-\where
-count >= 0
+LocationsCount : \mathbb{N}
 \end{state} \\
 \begin{init}
-count = 0
+LocationsCount = 0
 \end{init} \\
 \begin{op}{AddLocationOK}
-\Delta (count) \\
+\Delta (LocationsCount) \\
 \ST
-count' = count + 1
+LocationsCount' = LocationsCount + 1
 \end{op}\\
 \begin{op}{DeleteLocationOK}
-\Delta (count) \\
+\Delta (LocationsCount) \\
 \ST
-count' = count -1
+LocationsCount' = LocationsCount -1
 \end{op}\\
 \begin{op}{ModifyLocationOK}
 \ST
-count' = count
+LocationsCount' = LocationsCount
 \end{op}\\ 
 \begin{op}{FindLocationOK}
 \ST
-count' = count
+LocationsCount' = LocationsCount
 \end{op}\\
 \begin{op}{Success}
 \ST
-count' = count
+LocationsCount' = LocationsCount
 \end{op}\\
 \begin{op}{LocationAlreadyKnown}
 \ST
-count' = count
+LocationsCount' = LocationsCount
 \end{op}\\ 
 \begin{op}{NoLocationFound}
 \ST
-count' = count
+LocationsCount' = LocationsCount
 \end{op}\\
 \end{class}
 
