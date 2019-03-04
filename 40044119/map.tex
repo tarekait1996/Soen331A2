@@ -33,11 +33,12 @@ Point == Coordinate \times Coordinate \\
 Message ::= ok | location\_already\_known | no\_location\_found \\ 
 \end{zed}
 \begin{class}{Map}
+\upharpoonright (AddLocation, DeleteLocation, ModifyLocation, FindLocation) \\
 \begin{state}
 locations : Description \pfun Point\\
 \end{state} \\
 \begin{init}
-locations = \{ \}
+locations = \emptyset
 \end{init} \\
 \begin{op}{AddLocationOK}
 \Delta (locations) \\

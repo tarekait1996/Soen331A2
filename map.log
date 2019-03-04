@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 MAR 2019 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 MAR 2019 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -680,8 +680,7 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \c@FancyVerbLine=\count126
 \FV@StepNumber=\count127
 \FV@OutFile=\write3
-)
-No file map.aux.
+) (./map.aux)
 \openout1 = `map.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -696,6 +695,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -816,7 +816,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.96 AddLocation ~$\stackrel{\wedge}{=}
+l.97 AddLocation ~$\stackrel{\wedge}{=}
                                        $ (AddLocationOk \land Success ) \lor...
 
 ? r
@@ -824,7 +824,7 @@ OK, entering \nonstopmode...
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.96 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
+l.97 ...\stackrel{\wedge}{=}$ (AddLocationOk \land
                                                    Success ) \lor LocationAl...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -832,7 +832,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 DeleteLocation ~$\stackrel{\wedge}{=}
+l.99 DeleteLocation ~$\stackrel{\wedge}{=}
                                           $ (DeleteLocationOK \land Success ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -840,7 +840,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.98 ...ackrel{\wedge}{=}$ (DeleteLocationOK \land
+l.99 ...ackrel{\wedge}{=}$ (DeleteLocationOK \land
                                                    Success ) \lor NoLocation...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -848,7 +848,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 ModifyLocation ~$\stackrel{\wedge}{=}
+l.101 ModifyLocation ~$\stackrel{\wedge}{=}
                                            $ (ModifyLocationOK \land Success...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -856,7 +856,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 ...ckrel{\wedge}{=}$ (ModifyLocationOK \land
+l.101 ...ckrel{\wedge}{=}$ (ModifyLocationOK \land
                                                    Success ) \lor NoLocation...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -864,7 +864,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102 FindLocation ~$\stackrel{\wedge}{=}
+l.103 FindLocation ~$\stackrel{\wedge}{=}
                                          $ (FindLocationOK \land Success ) \...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -872,7 +872,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102 ...tackrel{\wedge}{=}$ (FindLocationOK \land
+l.103 ...tackrel{\wedge}{=}$ (FindLocationOK \land
                                                    Success ) \lor NoLocation...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -881,7 +881,7 @@ you left one out. Proceed, with fingers crossed.
 ! Misplaced \crcr.
 \also ->\crcr 
               \noalign {\vskip \jot }
-l.104 \znewpage
+l.105 \znewpage
                
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -892,7 +892,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \also ->\crcr \noalign 
                        {\vskip \jot }
-l.104 \znewpage
+l.105 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -900,7 +900,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \noalign.
 \znewpage ->\also \noalign 
                            {\penalty \forcepagepenalty }\also 
-l.104 \znewpage
+l.105 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
@@ -909,7 +909,7 @@ an alignment. Proceed, and I'll ignore this case.
 ! Misplaced \crcr.
 \also ->\crcr 
               \noalign {\vskip \jot }
-l.104 \znewpage
+l.105 \znewpage
                
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -920,16 +920,16 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced \noalign.
 \also ->\crcr \noalign 
                        {\vskip \jot }
-l.104 \znewpage
+l.105 \znewpage
                
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 [4] (./map.aux) ) 
 Here is how much of TeX's memory you used:
- 5587 strings out of 492649
- 74435 string characters out of 6129622
- 164242 words of memory out of 5000000
+ 5589 strings out of 492649
+ 74451 string characters out of 6129622
+ 165242 words of memory out of 5000000
  9370 multiletter control sequences out of 15000+600000
  14822 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -943,11 +943,12 @@ msy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb>
-Output written on map.pdf (4 pages, 92432 bytes).
+sam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msbm10.pfb>
+Output written on map.pdf (4 pages, 99778 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
